@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "my-app",
+      "name": "library-system",
       "dependencies": {
         "@tabler/icons-react": "^3.48.0",
         "@tailwindcss/vite": "^4.3.3",
