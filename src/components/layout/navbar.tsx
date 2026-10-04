@@ -5,7 +5,7 @@ import { Icon } from "../shared/Icon";
 
 export function Navbar() {
   return (
-    <header className="flex items-center gap-4 border-b border-gray-200 bg-white px-6 py-3 dark:border-gray-800 dark:bg-gray-950">
+    <header className="flex flex-wrap items-center gap-4 border-b border-gray-200 bg-white px-6 py-3 dark:border-gray-800 dark:bg-gray-950">
       <a
         href="/"
         className="flex shrink-0 items-center gap-2 text-lg font-semibold text-gray-900 dark:text-gray-100"
@@ -13,7 +13,7 @@ export function Navbar() {
         <span>Library System</span>
       </a>
 
-      <div className="mx-auto w-full max-w-md">
+      <div className="order-3 w-full sm:order-none sm:mx-auto sm:w-auto sm:max-w-md sm:flex-1">
         <SearchBook />
       </div>
 
